@@ -47,6 +47,60 @@ export const SponsorsSection = () => {
         Our Platinum Sponsors
       </h2>
 
+{/* Marquee 1st */}
+
+      <div className="mx-auto">
+        <Marquee
+          className="gap-[3rem]"
+          fade
+          innerClassName="gap-[3rem]"
+          pauseOnHover
+        >
+          {sponsors.map(({ icon, name }) => (
+            <div
+              key={name}
+              className="flex items-center text-xl md:text-2xl font-medium"
+            >
+              <Icon
+                name={icon as keyof typeof icons}
+                size={32}
+                color="white"
+                className="mr-2"
+              />
+              {name}
+            </div>
+          ))}
+        </Marquee>
+      </div>
+
+{/* Marquee 2nd */}
+
+      <div className="mx-auto">
+        <Marquee
+          className="gap-[3rem]"
+          fade
+          innerClassName="gap-[3rem]"
+          pauseOnHover
+        >
+          {sponsors.map(({ icon, name }) => (
+            <div
+              key={name}
+              className="flex items-center text-xl md:text-2xl font-medium"
+            >
+              <Icon
+                name={icon as keyof typeof icons}
+                size={32}
+                color="white"
+                className="mr-2"
+              />
+              {name}
+            </div>
+          ))}
+        </Marquee>
+      </div>
+
+{/* Marquee 3rd */}
+
       <div className="mx-auto">
         <Marquee
           className="gap-[3rem]"
