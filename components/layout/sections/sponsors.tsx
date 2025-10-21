@@ -40,7 +40,7 @@ export const SponsorsSection = () => {
       <div className="mx-auto">
         <Marquee className="gap-[3rem]" fade innerClassName="gap-[3rem]" pauseOnHover>
           {sponsors.map(({ name }, i) => (
-            <div key={i} className="flex items-center text-xl md:text-5xl font-medium">
+            <div key={i} className="flex items-center text-xl text-red-600 md:text-5xl font-medium">
               {name}
             </div>
           ))}
