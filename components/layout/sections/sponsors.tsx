@@ -5,36 +5,67 @@ import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 import { string } from "zod";
 interface sponsorsProps {
-  name : string;
+  name: string;
 }
 
 const sponsors: sponsorsProps[] = [
   {
-    name: "Acmebrand",
+    name: "POWERFUL THAILAND",
   },
   {
 
-    name: "Acmelogo",
-  },
-  {
- 
-    name: "Acmesponsor",
+    name: "POWERFUL THAILAND",
   },
   {
 
-    name: "Acmeipsum",
+    name: "POWERFUL THAILAND",
   },
   {
 
-    name: "Acme",
+    name: "POWERFUL THAILAND",
   },
   {
 
-    name: "Accmee",
+    name: "POWERFUL THAILAND",
   },
   {
 
-    name: "Acmetech",
+    name: "POWERFUL THAILAND",
+  },
+  {
+
+    name: "POWERFUL THAILAND",
+  },
+];
+
+interface sponsorsPropstwo {
+  name: string;
+}
+
+const sponsorsTwo: sponsorsPropstwo[] = [
+  {
+    name: "THAILANDING",
+  },
+  {
+
+    name: "THAILANDING",
+  },
+  {
+
+    name: "THAILANDING",
+  },
+  {
+
+    name: "THAILANDING",
+  },
+  {
+    name: "THAILANDING",
+  },
+  {
+    name: "THAILANDING",
+  },
+  {
+    name: "THAILANDING",
   },
 ];
 
@@ -42,7 +73,7 @@ export const SponsorsSection = () => {
   return (
     <section id="sponsors" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
 
-{/* Marquee 1st */}
+      {/* Marquee 1st */}
 
       <div className="mx-auto">
         <Marquee
@@ -62,7 +93,7 @@ export const SponsorsSection = () => {
         </Marquee>
       </div>
 
-{/* Marquee 2nd */}
+      {/* Marquee 2nd */}
 
       <div className="mx-auto">
         <Marquee
@@ -82,7 +113,7 @@ export const SponsorsSection = () => {
         </Marquee>
       </div>
 
-{/* Marquee 3rd */}
+      {/* Marquee 3rd */}
 
       <div className="mx-auto">
         <Marquee
