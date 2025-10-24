@@ -40,7 +40,7 @@ export const BenefitsSection = () => {
     <section id="benefits" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+          <h2 className="text-lg text-primary mb-2 tracking-wider">ALL Brands</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Your Shortcut to Success
